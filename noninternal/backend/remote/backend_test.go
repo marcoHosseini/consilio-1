@@ -10,9 +10,9 @@ import (
 	tfe "github.com/hashicorp/go-tfe"
 	version "github.com/hashicorp/go-version"
 	"github.com/hashicorp/terraform-svchost/disco"
-	tfversion "github.com/hashicorp/terraform/version"
 	"github.com/kevinklinger/open_terraform/noninternal/backend"
 	"github.com/kevinklinger/open_terraform/noninternal/tfdiags"
+	tfversion "github.com/kevinklinger/open_terraform/version"
 	"github.com/zclconf/go-cty/cty"
 
 	backendLocal "github.com/kevinklinger/open_terraform/noninternal/backend/local"
