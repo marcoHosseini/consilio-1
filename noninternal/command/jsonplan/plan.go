@@ -8,7 +8,6 @@ import (
 	"github.com/zclconf/go-cty/cty"
 	ctyjson "github.com/zclconf/go-cty/cty/json"
 
-	"github.com/hashicorp/terraform/version"
 	"github.com/kevinklinger/open_terraform/noninternal/addrs"
 	"github.com/kevinklinger/open_terraform/noninternal/command/jsonconfig"
 	"github.com/kevinklinger/open_terraform/noninternal/command/jsonstate"
@@ -17,6 +16,7 @@ import (
 	"github.com/kevinklinger/open_terraform/noninternal/states"
 	"github.com/kevinklinger/open_terraform/noninternal/states/statefile"
 	"github.com/kevinklinger/open_terraform/noninternal/terraform"
+	"github.com/kevinklinger/open_terraform/version"
 )
 
 // FormatVersion represents the version of the json format and will be

@@ -13,7 +13,6 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
 	"github.com/hashicorp/go-version"
-	tfversion "github.com/hashicorp/terraform/version"
 	"github.com/kevinklinger/open_terraform/noninternal/configs"
 	"github.com/kevinklinger/open_terraform/noninternal/configs/configload"
 	"github.com/kevinklinger/open_terraform/noninternal/configs/configschema"
@@ -25,6 +24,7 @@ import (
 	"github.com/kevinklinger/open_terraform/noninternal/states"
 	"github.com/kevinklinger/open_terraform/noninternal/states/statefile"
 	"github.com/kevinklinger/open_terraform/noninternal/tfdiags"
+	tfversion "github.com/kevinklinger/open_terraform/version"
 	"github.com/zclconf/go-cty/cty"
 )
 

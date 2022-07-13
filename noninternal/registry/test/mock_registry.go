@@ -13,10 +13,10 @@ import (
 	svchost "github.com/hashicorp/terraform-svchost"
 	"github.com/hashicorp/terraform-svchost/auth"
 	"github.com/hashicorp/terraform-svchost/disco"
-	tfversion "github.com/hashicorp/terraform/version"
 	"github.com/kevinklinger/open_terraform/noninternal/httpclient"
 	"github.com/kevinklinger/open_terraform/noninternal/registry/regsrc"
 	"github.com/kevinklinger/open_terraform/noninternal/registry/response"
+	tfversion "github.com/kevinklinger/open_terraform/version"
 )
 
 // Disco return a *disco.Disco mapping registry.terraform.io, localhost,

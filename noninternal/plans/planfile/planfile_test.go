@@ -6,7 +6,6 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	tfversion "github.com/hashicorp/terraform/version"
 	"github.com/kevinklinger/open_terraform/noninternal/addrs"
 	"github.com/kevinklinger/open_terraform/noninternal/configs/configload"
 	"github.com/kevinklinger/open_terraform/noninternal/depsfile"
@@ -14,6 +13,7 @@ import (
 	"github.com/kevinklinger/open_terraform/noninternal/plans"
 	"github.com/kevinklinger/open_terraform/noninternal/states"
 	"github.com/kevinklinger/open_terraform/noninternal/states/statefile"
+	tfversion "github.com/kevinklinger/open_terraform/version"
 )
 
 func TestRoundtrip(t *testing.T) {

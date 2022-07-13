@@ -4,8 +4,8 @@ import (
 	"fmt"
 
 	"github.com/hashicorp/hcl/v2"
-	"github.com/hashicorp/terraform/version"
 	"github.com/kevinklinger/open_terraform/noninternal/experiments"
+	"github.com/kevinklinger/open_terraform/version"
 )
 
 // When developing UI for experimental features, you can temporarily disable

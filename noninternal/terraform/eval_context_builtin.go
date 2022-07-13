@@ -6,12 +6,12 @@ import (
 	"log"
 	"sync"
 
-	"github.com/hashicorp/terraform/version"
 	"github.com/kevinklinger/open_terraform/noninternal/instances"
 	"github.com/kevinklinger/open_terraform/noninternal/plans"
 	"github.com/kevinklinger/open_terraform/noninternal/providers"
 	"github.com/kevinklinger/open_terraform/noninternal/provisioners"
 	"github.com/kevinklinger/open_terraform/noninternal/refactoring"
+	"github.com/kevinklinger/open_terraform/version"
 
 	"github.com/kevinklinger/open_terraform/noninternal/states"
 

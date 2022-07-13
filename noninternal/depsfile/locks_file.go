@@ -11,11 +11,11 @@ import (
 	"github.com/hashicorp/hcl/v2/hclwrite"
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/hashicorp/terraform/version"
 	"github.com/kevinklinger/open_terraform/noninternal/addrs"
 	"github.com/kevinklinger/open_terraform/noninternal/getproviders"
 	"github.com/kevinklinger/open_terraform/noninternal/replacefile"
 	"github.com/kevinklinger/open_terraform/noninternal/tfdiags"
+	"github.com/kevinklinger/open_terraform/version"
 )
 
 // LoadLocksFromFile reads locks from the given file, expecting it to be a

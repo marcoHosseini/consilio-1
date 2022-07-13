@@ -6,8 +6,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hashicorp/terraform/version"
 	"github.com/kevinklinger/open_terraform/noninternal/e2e"
+	"github.com/kevinklinger/open_terraform/version"
 )
 
 func TestVersion(t *testing.T) {

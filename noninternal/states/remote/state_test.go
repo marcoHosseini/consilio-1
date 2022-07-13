@@ -8,10 +8,10 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/hashicorp/terraform/version"
 	"github.com/kevinklinger/open_terraform/noninternal/states"
 	"github.com/kevinklinger/open_terraform/noninternal/states/statefile"
 	"github.com/kevinklinger/open_terraform/noninternal/states/statemgr"
+	"github.com/kevinklinger/open_terraform/version"
 )
 
 func TestState_impl(t *testing.T) {

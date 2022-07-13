@@ -11,9 +11,9 @@ import (
 	"github.com/gophercloud/gophercloud"
 	"github.com/gophercloud/utils/terraform/auth"
 
-	"github.com/hashicorp/terraform/version"
 	"github.com/kevinklinger/open_terraform/noninternal/backend"
 	"github.com/kevinklinger/open_terraform/noninternal/legacy/helper/schema"
+	"github.com/kevinklinger/open_terraform/version"
 )
 
 // Use openstackbase.Config as the base/foundation of this provider's

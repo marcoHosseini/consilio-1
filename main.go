@@ -12,7 +12,6 @@ import (
 
 	"github.com/hashicorp/go-plugin"
 	"github.com/hashicorp/terraform-svchost/disco"
-	"github.com/hashicorp/terraform/version"
 	"github.com/kevinklinger/open_terraform/noninternal/addrs"
 	"github.com/kevinklinger/open_terraform/noninternal/command/cliconfig"
 	"github.com/kevinklinger/open_terraform/noninternal/command/format"
@@ -20,6 +19,7 @@ import (
 	"github.com/kevinklinger/open_terraform/noninternal/httpclient"
 	"github.com/kevinklinger/open_terraform/noninternal/logging"
 	"github.com/kevinklinger/open_terraform/noninternal/terminal"
+	"github.com/kevinklinger/open_terraform/version"
 	"github.com/mattn/go-shellwords"
 	"github.com/mitchellh/cli"
 	"github.com/mitchellh/colorstring"

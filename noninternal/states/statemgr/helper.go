@@ -4,9 +4,9 @@ package statemgr
 // operations done against full state managers.
 
 import (
-	"github.com/hashicorp/terraform/version"
 	"github.com/kevinklinger/open_terraform/noninternal/states"
 	"github.com/kevinklinger/open_terraform/noninternal/states/statefile"
+	"github.com/kevinklinger/open_terraform/version"
 )
 
 // NewStateFile creates a new statefile.File object, with a newly-minted

@@ -14,7 +14,6 @@ import (
 	svchost "github.com/hashicorp/terraform-svchost"
 	"github.com/hashicorp/terraform-svchost/auth"
 	"github.com/hashicorp/terraform-svchost/disco"
-	"github.com/hashicorp/terraform/version"
 	"github.com/kevinklinger/open_terraform/noninternal/backend"
 	"github.com/kevinklinger/open_terraform/noninternal/cloud"
 	"github.com/kevinklinger/open_terraform/noninternal/configs"
@@ -24,6 +23,7 @@ import (
 	"github.com/kevinklinger/open_terraform/noninternal/states/remote"
 	"github.com/kevinklinger/open_terraform/noninternal/terraform"
 	"github.com/kevinklinger/open_terraform/noninternal/tfdiags"
+	"github.com/kevinklinger/open_terraform/version"
 	"github.com/mitchellh/cli"
 	"github.com/zclconf/go-cty/cty"
 

@@ -8,7 +8,7 @@ import (
 
 	"github.com/kevinklinger/open_terraform/noninternal/configs"
 
-	tfversion "github.com/hashicorp/terraform/version"
+	tfversion "github.com/kevinklinger/open_terraform/version"
 )
 
 // CheckCoreVersionRequirements visits each of the modules in the given

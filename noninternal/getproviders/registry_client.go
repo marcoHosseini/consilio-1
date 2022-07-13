@@ -20,10 +20,10 @@ import (
 	svchost "github.com/hashicorp/terraform-svchost"
 	svcauth "github.com/hashicorp/terraform-svchost/auth"
 
-	"github.com/hashicorp/terraform/version"
 	"github.com/kevinklinger/open_terraform/noninternal/addrs"
 	"github.com/kevinklinger/open_terraform/noninternal/httpclient"
 	"github.com/kevinklinger/open_terraform/noninternal/logging"
+	"github.com/kevinklinger/open_terraform/version"
 )
 
 const (

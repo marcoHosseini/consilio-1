@@ -9,7 +9,6 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/hashicorp/terraform/version"
 	"github.com/kevinklinger/open_terraform/noninternal/addrs"
 	"github.com/kevinklinger/open_terraform/noninternal/configs/configschema"
 	"github.com/kevinklinger/open_terraform/noninternal/plans"
@@ -17,6 +16,7 @@ import (
 	"github.com/kevinklinger/open_terraform/noninternal/states"
 	"github.com/kevinklinger/open_terraform/noninternal/states/statemgr"
 	"github.com/kevinklinger/open_terraform/noninternal/terraform"
+	"github.com/kevinklinger/open_terraform/version"
 	"github.com/mitchellh/cli"
 	"github.com/zclconf/go-cty/cty"
 )

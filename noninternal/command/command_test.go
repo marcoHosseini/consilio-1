@@ -23,7 +23,6 @@ import (
 
 	svchost "github.com/hashicorp/terraform-svchost"
 	"github.com/hashicorp/terraform-svchost/disco"
-	"github.com/hashicorp/terraform/version"
 	"github.com/kevinklinger/open_terraform/noninternal/addrs"
 	backendInit "github.com/kevinklinger/open_terraform/noninternal/backend/init"
 	backendLocal "github.com/kevinklinger/open_terraform/noninternal/backend/local"
@@ -47,6 +46,7 @@ import (
 	"github.com/kevinklinger/open_terraform/noninternal/states/statemgr"
 	"github.com/kevinklinger/open_terraform/noninternal/terminal"
 	"github.com/kevinklinger/open_terraform/noninternal/terraform"
+	"github.com/kevinklinger/open_terraform/version"
 	"github.com/zclconf/go-cty/cty"
 )
 

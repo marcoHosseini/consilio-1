@@ -8,9 +8,9 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/hashicorp/terraform/version"
 	"github.com/kevinklinger/open_terraform/noninternal/backend"
 	"github.com/kevinklinger/open_terraform/noninternal/legacy/helper/schema"
+	"github.com/kevinklinger/open_terraform/version"
 	"github.com/mitchellh/go-homedir"
 	k8sSchema "k8s.io/apimachinery/pkg/runtime/schema"
 	"k8s.io/client-go/dynamic"

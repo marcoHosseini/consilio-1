@@ -11,12 +11,12 @@ import (
 
 	svchost "github.com/hashicorp/terraform-svchost"
 	"github.com/hashicorp/terraform-svchost/disco"
-	"github.com/hashicorp/terraform/version"
 	"github.com/kevinklinger/open_terraform/noninternal/command/cliconfig"
 	oauthserver "github.com/kevinklinger/open_terraform/noninternal/command/testdata/login-oauth-server"
 	tfeserver "github.com/kevinklinger/open_terraform/noninternal/command/testdata/login-tfe-server"
 	"github.com/kevinklinger/open_terraform/noninternal/command/webbrowser"
 	"github.com/kevinklinger/open_terraform/noninternal/httpclient"
+	"github.com/kevinklinger/open_terraform/version"
 )
 
 func TestLogin(t *testing.T) {

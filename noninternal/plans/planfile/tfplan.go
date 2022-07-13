@@ -7,7 +7,6 @@ import (
 
 	"google.golang.org/protobuf/proto"
 
-	"github.com/hashicorp/terraform/version"
 	"github.com/kevinklinger/open_terraform/noninternal/addrs"
 	"github.com/kevinklinger/open_terraform/noninternal/lang/globalref"
 	"github.com/kevinklinger/open_terraform/noninternal/lang/marks"
@@ -15,6 +14,7 @@ import (
 	"github.com/kevinklinger/open_terraform/noninternal/plans/internal/planproto"
 	"github.com/kevinklinger/open_terraform/noninternal/states"
 	"github.com/kevinklinger/open_terraform/noninternal/tfdiags"
+	"github.com/kevinklinger/open_terraform/version"
 	"github.com/zclconf/go-cty/cty"
 )
 
