@@ -3,7 +3,7 @@ package configschema
 import (
 	"testing"
 
-	"github.com/hashicorp/terraform/internal/lang/marks"
+	"github.com/hashicorp/terraform/noninternal/lang/marks"
 	"github.com/zclconf/go-cty/cty"
 )
 

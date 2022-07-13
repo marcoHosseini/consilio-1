@@ -10,14 +10,14 @@ import (
 	svchost "github.com/hashicorp/terraform-svchost"
 	"github.com/hashicorp/terraform-svchost/auth"
 	"github.com/hashicorp/terraform-svchost/disco"
-	"github.com/hashicorp/terraform/internal/addrs"
-	"github.com/hashicorp/terraform/internal/command"
-	"github.com/hashicorp/terraform/internal/command/cliconfig"
-	"github.com/hashicorp/terraform/internal/command/views"
-	"github.com/hashicorp/terraform/internal/command/webbrowser"
-	"github.com/hashicorp/terraform/internal/getproviders"
-	pluginDiscovery "github.com/hashicorp/terraform/internal/plugin/discovery"
-	"github.com/hashicorp/terraform/internal/terminal"
+	"github.com/kevinklinger/open_terraform/noninternal/addrs"
+	"github.com/kevinklinger/open_terraform/noninternalnal/command"
+	"github.com/kevinklinger/open_terraform/noninternalnal/command/cliconfig"
+	"github.com/kevinklinger/open_terraform/noninternalnal/command/views"
+	"github.com/kevinklinger/open_terraform/noninternalnal/command/webbrowser"
+	"github.com/kevinklinger/open_terraform/noninternalnal/getproviders"
+	pluginDiscovery "github.com/kevinklinger/open_terraform/noninternalnal/plugin/discovery"
+	"github.com/kevinklinger/open_terraform/noninternalnal/terminal"
 )
 
 // runningInAutomationEnvName gives the name of an environment variable that
