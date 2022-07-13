@@ -11,9 +11,9 @@ import (
 	"github.com/hashicorp/terraform-svchost/disco"
 
 	"github.com/kevinklinger/open_terraform/noninternal/addrs"
-	"github.com/kevinklinger/open_terraform/noninternalnal/command/cliconfig"
-	"github.com/kevinklinger/open_terraform/noninternalnal/getproviders"
-	"github.com/kevinklinger/open_terraform/noninternalnal/tfdiags"
+	"github.com/kevinklinger/open_terraform/noninternal/command/cliconfig"
+	"github.com/kevinklinger/open_terraform/noninternal/getproviders"
+	"github.com/kevinklinger/open_terraform/noninternal/tfdiags"
 )
 
 // providerSource constructs a provider source based on a combination of the

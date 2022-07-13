@@ -7,7 +7,7 @@ import (
 
 	"github.com/hashicorp/go-checkpoint"
 	"github.com/kevinklinger/open_terraform/noninternal/command"
-	"github.com/kevinklinger/open_terraform/noninternalnal/command/cliconfig"
+	"github.com/kevinklinger/open_terraform/noninternal/command/cliconfig"
 )
 
 func init() {

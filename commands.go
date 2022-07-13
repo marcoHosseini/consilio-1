@@ -11,13 +11,13 @@ import (
 	"github.com/hashicorp/terraform-svchost/auth"
 	"github.com/hashicorp/terraform-svchost/disco"
 	"github.com/kevinklinger/open_terraform/noninternal/addrs"
-	"github.com/kevinklinger/open_terraform/noninternalnal/command"
-	"github.com/kevinklinger/open_terraform/noninternalnal/command/cliconfig"
-	"github.com/kevinklinger/open_terraform/noninternalnal/command/views"
-	"github.com/kevinklinger/open_terraform/noninternalnal/command/webbrowser"
-	"github.com/kevinklinger/open_terraform/noninternalnal/getproviders"
-	pluginDiscovery "github.com/kevinklinger/open_terraform/noninternalnal/plugin/discovery"
-	"github.com/kevinklinger/open_terraform/noninternalnal/terminal"
+	"github.com/kevinklinger/open_terraform/noninternal/command"
+	"github.com/kevinklinger/open_terraform/noninternal/command/cliconfig"
+	"github.com/kevinklinger/open_terraform/noninternal/command/views"
+	"github.com/kevinklinger/open_terraform/noninternal/command/webbrowser"
+	"github.com/kevinklinger/open_terraform/noninternal/getproviders"
+	pluginDiscovery "github.com/kevinklinger/open_terraform/noninternal/plugin/discovery"
+	"github.com/kevinklinger/open_terraform/noninternal/terminal"
 )
 
 // runningInAutomationEnvName gives the name of an environment variable that
