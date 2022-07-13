@@ -12,7 +12,6 @@ import (
 	"github.com/google/go-cmp/cmp"
 	tfe "github.com/hashicorp/go-tfe"
 	version "github.com/hashicorp/go-version"
-	tfversion "github.com/hashicorp/terraform/version"
 	"github.com/kevinklinger/open_terraform/noninternal/addrs"
 	"github.com/kevinklinger/open_terraform/noninternal/backend"
 	"github.com/kevinklinger/open_terraform/noninternal/cloud"
@@ -26,6 +25,7 @@ import (
 	"github.com/kevinklinger/open_terraform/noninternal/states/statemgr"
 	"github.com/kevinklinger/open_terraform/noninternal/terminal"
 	"github.com/kevinklinger/open_terraform/noninternal/terraform"
+	tfversion "github.com/kevinklinger/open_terraform/version"
 	"github.com/mitchellh/cli"
 )
 
